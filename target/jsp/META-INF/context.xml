@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<context>
+    <Resource name="jdbc/jsp" auth="Container"
+              type="javax.sql.DataSource"
+              username="root" password="123456"
+              url="jdbc:mysql://localhost:3306/daotest"
+              driverClassName="com.mysql.jdbc.Driver"
+              maxActive="100"
+              maxIdle="30" maxWait="10000">
+
+    </Resource>
+</context>
